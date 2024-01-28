@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 name: Checks
 
@@ -19,3 +20,6 @@ jobs:
         run: docker-compose run --rm app sh -c "python manage.py test"
       - name: Lint
         run: docker-compose run --rm app sh -c "flake8"
+=======
+
+>>>>>>> 00bd3c2e53dff49dddb956a31948d179010bd539
